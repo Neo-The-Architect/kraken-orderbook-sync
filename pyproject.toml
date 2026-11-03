@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "kraken-orderbook-sync"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["websockets==15.0.1"]
+description = "Explicit opt-in Kraken v2 L2 book client with Decimal CRC32 validation"
+[tool.setuptools]
+py-modules = ["orderbook", "client"]
