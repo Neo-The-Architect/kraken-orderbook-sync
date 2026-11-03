@@ -1,5 +1,7 @@
 # Kraken v2 L2 order-book synchronizer
 
+[![offline-tests](https://github.com/Neo-The-Architect/kraken-orderbook-sync/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/Neo-The-Architect/kraken-orderbook-sync/actions/workflows/ci.yml)
+
 A public-data WebSocket v2 client and independent Decimal-based order-book state
 machine. The default command runs offline tests. A live connection requires an
 explicit `--live` flag; importing modules never connects. No account credentials,
